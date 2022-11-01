@@ -1,0 +1,656 @@
+.switch{
+    background: rgb(70, 70, 70);;
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    font-size: 16px;
+    transition: 300ms ease all;
+}
+
+.switch::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f8f8f8;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+    transition: 300ms ease all;
+}
+
+.switch.sun{
+    background: orange;
+    color: #000;
+    transition: 300ms ease all;
+}
+
+.switch.sun::after{
+    right: 0;
+    left: unset;
+    transition: 300ms ease all;
+}
+
+.switch span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background: none;
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+
+body.dark{
+    background: #000;
+    transition: 300ms ease all;
+    box-shadow: 2px 2px 5px #1d1d1dd7;
+}
+
+
+
+/* style scroll bar */
+body.dark::-webkit-scrollbar-thumb{
+    background: #141414;
+    transition: 300ms ease all;
+}
+
+body.dark::-webkit-scrollbar{
+    background: #636363;
+    transition: 300ms ease all;
+}
+
+/* style nav */
+body.dark .sticky{
+    transition: 300ms ease all;
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .sticky li a{
+    color: #f1f1f1;
+    transition: 300ms ease all;
+}
+
+body.dark nav ul li ul::before{
+    border-bottom: 12px solid #222;
+    transition: 300ms ease all;
+}
+
+body.dark nav ul .linear::before{
+    background: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark nav ul li ul{
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .checkbtn{
+    color: #f1f1f1;
+    transition: 300ms ease all;
+}
+
+body.dark .checkbtn:hover{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark nav ul li ul a:hover{
+    background: #050505;
+    transition: 300ms ease all;
+}
+
+body.dark nav ul li ul a{
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark li.active i{
+    background: #141414;
+    transition: 300ms ease all;
+}
+
+body.dark li.active i:hover{
+    background: #fff;
+    transition: 300ms ease all;
+    color: #222;
+}
+
+body.dark .navbar ul{
+    background: #222;
+    transition: 300ms ease all;
+    box-shadow: none;
+}
+
+body.dark .logo{
+    visibility: hidden;
+}
+
+body.dark .logo-dark{
+    visibility: visible;
+    position: absolute;
+    transition: 300ms ease all;
+}
+
+
+
+
+
+
+
+
+/* style publish */
+body.dark .publish{
+    background: #141414;
+    transition: 300ms ease all;
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+}
+
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+/* style ejecute projects*/
+body.dark .project-e{
+    transition: 300ms ease all;
+    box-shadow: 2px 2px 5px #1d1d1dee;
+}
+
+body.dark .project-e h2{
+    color: #f1f1f1;
+    transition: 300ms ease all;
+}
+
+
+
+/* -------------------------------------------------------------------- */
+
+
+
+/* style ejecute projects ejectute */
+body.dark .project-t{
+    transition: 300ms ease all;
+    box-shadow: 2px 2px 5px #1d1d1dee;
+}
+
+body.dark .pr-t h2{
+    color: #f1f1f1;
+    transition: 300ms ease all;
+}
+
+
+
+
+
+
+
+
+
+/* style card */
+body.dark .card:hover{
+    box-shadow: 5px 5px 20px rgba(136, 136, 136, 0.144);
+    transform: translateY(-3%);
+    transition: 300ms ease all;
+}
+
+body.dark .texto_card{
+    background: #141414;
+    transition: 300ms ease all;
+}
+
+body.dark .texto_card h3{
+    color: rgb(131, 131, 131);
+    transition: 300ms ease all;
+}
+
+body.dark .texto_card p{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .card_list{
+    background: #141414;
+    transition: 300ms ease all;
+}
+
+body.dark .card{
+    background: #141414;
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+/* -------------------- */
+
+/* Carousel */
+body.dark .carrusel{
+    box-shadow: 0px 0px 2px 0px rgba(170, 170, 170, 0.082);
+}
+
+/* -------------------- */
+
+
+body.dark .card_list a{
+    color: #f8f8f8;
+    background: #050505;
+    border: 2px solid #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .card_list a:hover{
+    background: #f8f8f8;
+    color: #050505;
+    border: 2px solid #050505;
+    transition: 300ms ease all;
+}
+
+/* Style Contact Dark Mode  */
+body.dark .contact-s{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark .banner_slider{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+}
+
+body.dark .co-s h2{
+    color: #f8f8f8;
+}
+
+body.dark .contact-icon a{
+    background: #222;
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+    transition: 300ms ease all;
+
+}
+
+body.dark .contact-icon i:hover{
+    color: #222;
+    background: #f8f8f8;
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+    transition: 300ms ease all;
+}
+
+body.dark .contact-icon h3{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .contact-icon p{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+
+body.dark .maps{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark .titulo{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .user_info label{
+    color: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .user_info input[type="submit"]{
+    background: #222;
+    color: #f8f8f8;
+    transition: 300ms;
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+}
+
+body.dark .user_info input[type="submit"]:hover{
+    background: #f8f8f8;
+    color: #222;
+    transition: 300ms;
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+}
+
+
+
+
+
+
+
+
+
+
+/* style up button */
+body.dark #button-up {
+    background: #585858;
+    color: #f8f8f8;
+    box-shadow: 1px 1px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark #button-up:hover{
+    background: #f8f8f8;
+    color: #585858;
+    box-shadow: 1px 1px 1px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+
+
+
+body.dark footer{
+    box-shadow: 2px 2px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+
+body.dark .social-icons a{
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .social-icons p{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .contenido-textos a{
+    color: #585858;
+    transition: 300ms ease all;
+}
+
+body.dark .contenido-textos span{
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .area{
+    background: #222;
+    box-shadow: 2px 2px 5px #1d1d1dee;
+    transition: 300ms ease all;
+}
+
+body.dark .overlay{
+    background: rgba(34, 34, 34, 0.808);
+    transition: 300ms ease all;
+}
+
+body.dark .contenedor-servicios a button{
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .contenedor-servicios a button:hover{
+    background: #f8f8f8;
+    color: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .box__footer a{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .box__footer h3{
+    color: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .box__footer p{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+
+
+
+
+/* Style Contact Dark Mode */
+body.dark .work-t{
+    box-shadow: 1px 1px 1px 2px 2px 5px #1d1d1dee;
+    transition: 300ms ease all;
+}
+
+body.dark .wo-t h2{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .contenido-textos h3{
+    color: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .contenido-textos p{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .contenedor-servicios h2{
+    color: #222;
+    transition: 300ms ease all;
+}
+
+
+body.dark .contenido-textos h3{
+    color: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .contenido-textos li{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .est-ge{
+    box-shadow: 2px 2px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all; 
+}
+
+
+body.dark .contenedor .servicios h2{
+    color: #5b5b5b;
+    transition: 300ms ease all;
+}
+
+
+/* style footer */
+body.dark footer{
+    background: #222;;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark footer h2{
+    color: #5b5b5b;
+    transition: 300ms ease all;
+}
+
+body.dark footer a{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .box__copyright hr{
+    background: #5b5b5b;
+    transition: 300ms ease all;
+}
+
+body.dark .box__copyright p{
+   color: #5b5b5b;
+   transition: 300ms ease all;
+}
+
+body.dark .box__footer .logo- a .logo-vsb{
+    visibility: hidden;
+    display: block;
+    position: absolute;
+    transition: 0ms;
+}
+
+body.dark .box__footer .logo- a .logo-dar{
+    visibility: visible;
+    position: relative;
+    display: block;
+    transition: 0ms;
+}
+
+
+
+
+
+
+body.dark .card__back{
+    background: #222;
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark .card__back h1{
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .body__card-back a input[type="button"]{
+    background: #050505;
+    color: #f8f8f8;
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark .body__card-back a input[type="button"]:hover{
+    background: #f8f8f8;
+    color: #050505;
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+body.dark .card__back a{
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+
+body.dark .card__back{
+    background: #222;
+    transition: 300ms ease all;
+}
+
+body.dark .card__front{
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+
+body.dark .container-blog article::before{
+    background: #585858;
+}
+
+body.dark .container-blog article h1{
+    color: #222;
+}
+
+body.dark .container-blog article p{
+    color: #fff;
+}
+
+body.dark .container-blogger h2{
+    color: #222;
+}
+
+body.dark .container-blogger p{
+    color: #f8f8f8;
+}
+
+body.dark .container-blogger aside{
+    border: 1px solid #222
+}
+
+body.dark .container-blogger aside button{
+    background: #222;
+    color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    transition: 300ms ease all;
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+}
+
+body.dark .container-blogger aside button:hover{
+    background: #f8f8f8;
+    color: #222;
+    border: 1px solid #222;
+    transition: 300ms ease all;
+}
+
+body.dark .search ul li{
+    background:#141414;
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .search ul li:hover{
+    color: #141414;
+    background: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .search .action-filter {
+    background: #636363;
+    color: #f8f8f8;
+    transition: 300ms ease all;
+}
+
+body.dark .search .action-filter:hover{
+    background: #f8f8f8;
+    color: #141414;
+    transition: 300ms ease all;
+}
+
+
+
+body.dark .maps{
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+
+/* Contact form */
+body.dark form.form_contact input[type="submit"]{
+    background: #222; 
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+    color: #f8f8f8;
+}
+
+body.dark form.form_contact input[type="submit"]:hover{
+    background: #f8f8f8;
+    color: #222;
+    box-shadow: 1px 1px 2px rgba(170, 170, 170, .16);
+}
+
+body.dark form.form_contact label{
+    color: #222;
+}
+
+body.dark form.form_contact input{
+    color: #f8f8f8;
+}
+
+body.dark form.form_contact select{
+    background: #f8f8f8;
+    border-radius: none;
+    font-size: 14px;
+}

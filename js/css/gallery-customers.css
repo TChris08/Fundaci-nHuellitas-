@@ -1,0 +1,156 @@
+.contenedoor-servicios h1 .galeriaa{
+    color: #020d2b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* Galeria de proyectos "gallery.html" */
+.galeriaa{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Tamaño del titulo "gallery.html" */
+.galeriaa h1{
+    text-align: center;
+    font-size: 10px;
+    color: #020d2b;
+}
+
+/* Tamaño de la linea */
+.linea{
+    border-top: 5px solid #020d2b;
+    margin-bottom: 35px;
+    position: center;
+}
+
+/* Contenedor de las imagenes */
+.contenedoor-imagenes{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    margin-top: 100px;
+}
+
+/* Contenedor del tamaño de las imagenes  */
+.contenedoor-imagenes .imageen{
+    width: 18.5%;
+    position: relative;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+    margin-right: 1px;
+    object-fit: cover;
+    object-position: center center;
+    margin-bottom: 30px;
+}
+
+/* Contenedor del tamaño de las iamgenes */
+.imageen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-fit:cover;
+    object-position: center center;
+}
+  
+.imageen:hover{
+    transform: scale3d(1.3, 1.3, 1.3);
+    transition: 300ms;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Efecto overlay y su clase */
+.oveerlay{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    background: rgba(3, 1, 51, 0.781);
+    width: 100%; 
+    height: 0;
+    transition: 5.s ease;
+    overflow: hidden;
+    cursor: unset;
+}
+
+/* Efecto overlay para el titulo */
+.oveerlay h3{
+    color: #fff;
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    cursor: unset;
+}
+
+/* Efecto overlay para el titulo y su respectiva imagen */
+.imageen:hover .oveerlay{
+    height: 100%;
+    cursor: unset;
+}
+
+
+/* Media Responsive Apdate */
+@media screen and (max-width:1000px) {
+    .contenedor-imagenees{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contenedor-imagenees{
+        width: 90%;
+    }
+
+    .contenedor-imagenees{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1{
+        font-size: 22px;
+    }
+    .contenedor-imagenees{
+        width: 90%;
+    }
+
+    .contenedor-imagenees{
+        width: 80%;
+    }
+}
+
+.contenedoor-servicios button{
+    padding: 10px 78px;
+    background: #020d2b;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #FFF;
+    outline: none;
+    transition: all 300ms;
+    margin-bottom: -50px;
+}
+
+.contenedoor-servicios button:hover{
+    background: #FFF;
+    color: #020d2b;
+}
+
+
+@media screen and (max-width: 850px) {
+    .contenedoor-imagenes{
+        display: flex;
+        width: 80%;
+    }
+    .contenedoor-imagenes .imageen{
+        width: 80%;
+    }
+}

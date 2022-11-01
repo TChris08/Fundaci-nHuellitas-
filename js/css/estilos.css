@@ -1,0 +1,504 @@
+/* Estilos principales de toda la pagian */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Pagina */
+body{
+    font-family: 'Oswald', sans-serif;
+    *background-image: url(../img/fondo4.jpeg);
+    *background-position: center;
+    *background-size: cover;
+    *background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease all;
+}
+
+body::-webkit-scrollbar{
+    width: 9px;
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb{
+    width: 9px;
+    background: #020d2b;
+    background-size: cover;
+}
+
+main{
+    *background-image: url(../img/fondo4.jpeg);
+    *background-position: center;
+    *background-size: cover;
+    *background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenedor de toda la pagina */
+.contenedor{
+    padding: 10px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* Estilo de la clase titulo */
+.titulo{
+    color: #020d2b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    scroll-behavior: smooth;
+    font-weight: 600;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 700px;
+    background-size:cover; 
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Estilo del slogan */
+.textos-header{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+/* Estilo del primer titulo h1 */
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* Servicios */
+.contenedor-servicios{
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+}
+
+/* Tamaño del titulo de inicio */
+.titulo{
+    width: center;
+    height: 50px;
+    font-size: 50px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+
+.imagen-servicios{
+    width: 45%;
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 23px;
+}
+
+.contenedor-servicios .contenido-textos{
+    width: 45%;
+    margin-left: 15px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/* Tamaño del titulo "h3" */
+.contenido-textos h3{
+    margin-bottom: 10px;
+    color: #020d2b;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+/* Diseño de los span */ 
+ .contenido-textos h3 span{ 
+    background: #020d2b;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.contenido-textos .return{
+    padding: 10px;
+    text-decoration: none;
+    background: #020d2b;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: 300ms;
+    border: solid 1px 1px 1px #fff;
+}
+
+.contenido-textos .return:hover{
+    background: #f8f8f8;
+    color: #020d2b;
+    border: solid 1px #020d2b ;
+}
+
+/* Tamaño de los parrafos */
+.contenido-textos p{
+    padding: 0px 0px 20px 30px;
+    font-weight: 400;
+    text-align: justify;
+    width: 100%;
+    margin-left: -15px;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+/* Tamaño del texto de la lista "Servicios" */
+.contenido-textos li{
+    text-align: justify;
+    margin-left: 35px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+    line-height: 35px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* Tamaño del titulo "Nosotros */
+div .contenido-textos .nosotros{
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* Contenedor de metros cuadrados */
+.area {
+    box-shadow: 1px 1px 5px;
+    background: #020d2b;
+    width: 100%;
+    padding: 80px;
+}
+
+.contenedor-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: -70px;
+    margin-top: -70px;
+    line-height: 30px;
+}
+
+.contenedor-area h1{
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.contenedor-area p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: -15px;
+}
+
+.contenedor-area li{
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.menu-contentt{
+    position: fixed;
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    bottom: 10px;
+    right: 60px;
+}
+
+/* Item */
+.menuu-item{
+    width: var(--sizeButton);
+    height: var(--sizeButton);
+    background: var(--primaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 80px;
+    left: 80%;
+    text-decoration: none;
+    transition: transform 300ms;
+    color: #fff;
+    font-size: 25px;   
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+
+}
+
+.menuu-item:hover{
+    background: #fff;
+    color: var(--primaryColor);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Facebook bottom */
+.facebook{
+    width: var(--sizeButton);
+    height: var(--sizeButton);
+    background: #4267B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 80px;
+    right: 40px;
+    text-decoration: none;
+    transition: transform 300ms;
+    color: #fff;
+    font-size: 25px;   
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.facebook:hover{
+    background: #fff;
+    color: #4267B2;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Linkedin bottom */
+.linkedin{
+    width: var(--sizeButton);
+    height: var(--sizeButton);
+    background: #0e76a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 80px;
+    right: 40px;
+    text-decoration: none;
+    transition: transform 300ms;
+    color: #fff;
+    font-size: 25px;   
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin:hover{
+    background: #fff;
+    color: #0e76a8;
+    transition: .2s;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Whatsapp bottom */
+.whatsapp{
+    width: var(--sizeButton);
+    height: var(--sizeButton);
+    background: #25d366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 80px;
+    right: 40px;
+    text-decoration: none;
+    transition: transform 300ms;
+    color: #fff;
+    font-size: 25px;   
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp:hover{
+    background: #fff;
+    color: #25d366;
+    transition: .2s;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Instagram bottom */
+.instagram{
+    width: var(--sizeButton);
+    height: var(--sizeButton);
+    background: #E1306C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 80px;
+    right: 40px;
+    text-decoration: none;
+    transition: transform 300ms;
+    color: #fff;
+    font-size: 25px;   
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.instagram:hover{
+    background: #fff;
+    color: #E1306C;
+    transition: .2s;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3); 
+}
+
+#menuu{
+    z-index: 100;
+}
+
+.menuu-active .facebook {
+    transform: translate(-100%, 53%);
+}
+
+.menuu-active .instagram {
+    transform: translate(0%, -110%);
+}
+
+.menuu-active .linkedin {  
+    transform: translate(-100%, -58%)
+}
+
+.menuu-active .whatsapp{
+    transform: translateY(66px)
+}
+
+.menuu-active #menuu i{
+    transform: rotate(45deg);
+}
+
+:root{
+    --bgColor: #00415a;
+    --primaryColor: #000853;
+    --colorHover: #ffffff;
+    --sizeButton: 60px;
+    --sizeIcons: 25px;
+    --widthContent: 200px;
+    --heightContent: 130px;
+}
+
+/* ------------------------------------------------- */
+
+/* Button Up */
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: #020d2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: 300ms ease;
+    transform: scale(0);
+    z-index: 997;
+}
+
+#button-up:hover{
+    transform: scale(1.2);
+    background: #fff;
+    color: #020d2b;    
+}
+
+
+
+/* ----------------------------- */
+
+
+/* Search Projects */
+.search{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.search ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search ul li{
+    list-style: none;
+    background: #020d2b;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #fff;
+    transition: 300ms;
+    border: 1px solid #000;
+    font-weight: 500;
+}
+
+.search ul li:hover{
+    list-style: none;
+    background: #fff;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: #020d2b;
+}
+
+.search ul li.action-filter{
+    background: #636363;
+    color: #fff;
+}
+
+.search ul li.action-filter:hover{
+    background: #020d2b;
+    color: #fff;
+}
+

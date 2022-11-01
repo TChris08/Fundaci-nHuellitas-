@@ -1,0 +1,33 @@
+.container-text{
+    padding: 40px;
+    display: flex;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.container-text .text{
+    width: 45%;
+    padding: 20px;
+}
+
+.container-text h2{
+    color: #ffbd11;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.container-text p{
+    color: #532516;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.container-text img{
+    width: 45%;
+    padding: 20px;
+}
+

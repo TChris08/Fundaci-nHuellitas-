@@ -1,0 +1,179 @@
+/* Html */
+html{
+    scroll-behavior: smooth;
+}
+/* Tamaño del titulo de la seccion "Galeria" */
+.contenedor-servicios h1 .galeria{
+    color: #020d2b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+/* Galeria de proyectos "gallery.html" */
+.galeria{
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* Tamaño del titulo "gallery.html" */
+.galeria h1{
+    text-align: center;
+    font-size: 10px;
+    color: #020d2b;
+}
+
+/* Tamaño de la linea */
+.linea{
+    border-top: 5px solid #020d2b ;
+    margin-bottom: 35px;
+    position: center;
+}
+
+/* Funcion para menu pegajoso */
+.stickyy{
+    position: sticky;
+    top: 118px;
+    z-index: 10000;
+}
+
+/* Contenedor de las imagenes */
+.contenedor-imagenes{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-top: 100px;
+    scroll-behavior: smooth;
+}
+
+/* Contenedor del tamaño de las imagenes  */
+.contenedor-imagenes .imagen{
+    width: 32.5%;
+    position: relative;
+    height: 450px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+    scroll-behavior: smooth;
+}
+
+/* Contenedor del tamaño de las iamgenes */
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scroll-behavior: smooth;
+}
+    
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Efecto overlay y su clase */
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(3, 1, 51, 0.781);
+    width: 100%; 
+    height: 0;
+    transition: .5s ease;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Efecto overlay para el titulo */
+.overlay h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    scroll-behavior: smooth;
+}
+
+/* Diseño de los links */
+.overlay a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 19px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+.overlay h2{
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.overlay a:hover{
+    color: rgb(196, 193, 193);
+}
+
+/* Efecto overlay para el titulo y su respectiva imagen */
+.imagen:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+
+
+/* Media Responsive Apdate */
+@media screen and (max-width:1000px) {
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .contenedor-imagenes{
+        width: 90%;
+    }
+
+    .contenedor-imagenes{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1{
+        font-size: 22px;
+    }
+    .contenedor-imagenes{
+        width: 90%;
+    }
+
+    .contenedor-imagenes{
+        width: 80%;
+    }
+}
+
+.contenedor-servicios button{
+    padding: 10px 78px;
+    background: #020d2b;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #FFF;
+    outline: none;
+    transition: all 300ms;
+    margin-bottom: -50px;
+}
+
+.contenedor-servicios button:hover{
+    background: #FFF;
+    color: #020d2b;
+}

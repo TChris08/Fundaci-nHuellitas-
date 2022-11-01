@@ -1,0 +1,44 @@
+.publish{
+    width: 100%;
+    height: 100%;
+    background: #020d2b;
+    color: #fff;
+    display: flex;
+    position: sticky;
+    z-index: 100000;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.cont{  
+    position: sticky;
+    top: 0 ; 
+    width: 100%;
+}
+
+.publish li{
+    display: inline-block;
+    list-style: none;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 80px;
+    margin-right: 80px;
+    overflow: hidden;
+    animation-name: publish;
+    animation-iteration-count: infinite;
+    animation-direction: alternate, reverse, normal;
+    animation-duration: 15s;
+    max-height: 16px;
+}
+
+@keyframes publish{
+    from{
+        margin-left: 100%;
+        height: 100px;
+        width: 100%;
+    }
+}
+
+.publish li i{
+    color: #fff;
+}

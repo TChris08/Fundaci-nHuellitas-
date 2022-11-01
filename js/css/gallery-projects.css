@@ -1,0 +1,114 @@
+#galeria-flex{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 600px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -45px;
+    margin-bottom: 30px;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+#galeria-flex img{
+    width: 302px;
+    padding: 10px;
+    height: 280px;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 10px;
+}
+
+#galeria-flex img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#img-activa{
+    width: 100%;
+    height: auto;
+}
+
+#contenedor-principal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.877);
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+
+#contenedor-interno{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 600px;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+
+@media (max-width: 800px) {
+    #contenedor-interno{
+        max-width: 500px;
+        max-height: 400px;
+    }
+}
+
+
+#contenedor-interno button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color: #f3f3f3; 
+}
+
+#btn-cerrar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    transition: 300ms;
+    font-size: 35px;
+}
+
+#btn-cerrar:hover{
+    color: rgb(97, 97, 97);
+    transition: 300ms;
+}
+
+
+#btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 3rem;
+}
+
+#btn-left:hover{
+    color: rgb(97, 97, 97);
+    transition: 300ms;
+}
+
+#btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 3rem;
+}
+
+#btn-right:hover{
+    color: rgb(97, 97, 97);
+    transition: 300ms;
+}

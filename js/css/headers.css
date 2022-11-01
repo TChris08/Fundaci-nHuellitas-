@@ -1,0 +1,1172 @@
+/* Estilos "Proyectos en ejecución" */
+.project-e{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/inicio/SUE.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+body.dark .project-e{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.pr-e h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.pr-e p{
+    font-size: 25px;
+    padding: 60px;
+    margin-top: -40px;
+    color:#fff;
+    font-style: italic;
+}
+
+.line{
+    border-top: 1px solid #ffffff ;
+    position: center;
+    margin-top: -40px;
+    width: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .pr-e h2{
+        font-size: 55px;
+    }
+
+    .pr-e p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .pr-e h2{
+        font-size: 45px;
+    }
+
+    .pr-e p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .pr-e h2{
+        font-size: 45px;
+    }
+
+    .pr-e p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .pr-e h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pr-e p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .pr-e h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pr-e p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .pr-e h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pr-e p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Proyectos en ejecutados" */
+.project-t{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+body.dark .project-e{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.pr-t h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.pr-t p{
+    font-size: 25px;
+    padding: 60px;
+    margin-top: -40px;
+    color:#fff;
+    font-style: italic;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .pr-t h2{
+        font-size: 55px;
+    }
+
+    .pr-t p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .pr-t h2{
+        font-size: 45px;
+    }
+
+    .pr-t p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .pr-t h2{
+        font-size: 45px;
+    }
+
+    .pr-t p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .pr-t h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pr-t p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .pr-t h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pr-t p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .pr-t h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pr-t p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Contacto" */
+
+.contact-s{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    width: 100%;
+}
+
+body.dark .contact-s{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.co-s h2{
+    font-size: 65px;
+    padding: 40px;
+    color: #fff;
+}
+
+.co-s p{
+    font-size: 22px;
+    padding: 40px;
+    margin-top: -28px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 500px;
+    text-align: justify;
+    width: 100%;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .co-s h2{
+        font-size: 55px;
+    }
+
+    .co-s p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .co-s h2{
+        font-size: 45px;
+    }
+
+    .co-s p{
+        font-size: 20px;
+        margin-top: -12px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .co-s h2{
+        font-size: 45px;
+    }
+
+    .co-s p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .co-s h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .co-s p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .co-s h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .co-s p{
+        font-size: 20px;
+        margin-top: -12px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .co-s h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .co-s p{
+        font-size: 18px;
+        margin-top: -20px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Trabaja con nosotros" */
+.work-t{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/trabaja-con-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+body.dark .work-t{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.wo-t h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.wo-t p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 500px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .wo-t h2{
+        font-size: 55px;
+    }
+
+    .wo-t p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .wo-t h2{
+        font-size: 45px;
+    }
+
+    .wo-t p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .wo-t h2{
+        font-size: 45px;
+    }
+
+    .wo-t p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .wo-t h2{
+        margin-top: 10px;
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .wo-t p{
+        font-size: 17px;
+        margin-top: -20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .wo-t h2{
+        margin-top: 10px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .wo-t p{
+        font-size: 20px;
+        margin-top: -20px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:520px){
+    .wo-t h2{
+        margin-top: 10px;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .wo-t p{
+        font-size: 16px;
+        margin-top: -50px;
+        width: 100%;
+    }
+}
+
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Asesoría Geotécnica" */
+.ase-g{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Edificios/casa-cabrera/casa-cabrera.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+.as-g h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.as-g p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+body.dark .ase-g{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .as-g h2{
+        font-size: 55px;
+    }
+
+    .as-g p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .as-g h2{
+        font-size: 45px;
+    }
+
+    .as-g p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .as-g h2{
+        font-size: 45px;
+    }
+
+    .as-g p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .as-g h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .as-g p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .as-g h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .as-g p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .as-g h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .as-g p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Interventoria Integral" */
+.int-i{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+body.dark .int-i{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.in-i h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.in-i p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .in-i h2{
+        font-size: 55px;
+    }
+
+    .in-i p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .in-i h2{
+        font-size: 45px;
+    }
+
+    .in-i p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .in-i h2{
+        font-size: 45px;
+    }
+
+    .in-i p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .in-i h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .in-i p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .in-i h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .in-i p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .in-i h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .in-i p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Revision de diseños estructurales" */
+.rev-d{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/imagen5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+body.dark .rev-d{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.re-d h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.re-d p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .re-d h2{
+        font-size: 55px;
+    }
+
+    .re-d p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .re-d h2{
+        font-size: 45px;
+    }
+
+    .re-d p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .re-d h2{
+        font-size: 45px;
+    }
+
+    .re-d p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .re-d h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .re-d p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .re-d h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .re-d p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .re-d h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .re-d p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Supervisión técnica independiente" */
+.sup-t{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/supervision-tecnica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+body.dark .sup-t{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.sup-tec h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.sup-tec p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .sup-tec h2{
+        font-size: 55px;
+    }
+
+    .sup-tec p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .sup-tec h2{
+        font-size: 45px;
+    }
+
+    .sup-tec p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .sup-tec h2{
+        font-size: 45px;
+    }
+
+    .sup-tec p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .sup-tec h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .sup-tec p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .sup-tec h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .sup-tec p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .sup-tec h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .sup-tec p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Estructuración y gerencia de proyectos" */
+.est-g{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/estructuracion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+body.dark .est-g{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.est-ge h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.est-ge p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .est-ge h2{
+        font-size: 55px;
+    }
+
+    .est-ge p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .est-ge h2{
+        font-size: 45px;
+    }
+
+    .est-ge p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .est-ge h2{
+        font-size: 45px;
+    }
+
+    .est-ge p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .est-ge h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .est-ge p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .est-ge h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .est-ge p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .est-ge h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .est-ge p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Clientes" */
+.client-s{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Edificios/mitika/mitika.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+}
+
+body.dark .client-s{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+.cli-s h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.cli-s p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .cli-s h2{
+        font-size: 55px;
+    }
+
+    .cli-s p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .cli-s h2{
+        font-size: 45px;
+    }
+
+    .cli-s p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .cli-s h2{
+        font-size: 45px;
+    }
+
+    .cli-s p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .cli-s h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .cli-s p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .cli-s h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .cli-s p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .cli-s h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .cli-s p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* Estilos "Nosotros" */
+.us{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Clientes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    *object-fit:fill;
+}
+
+body.dark .us{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+
+.us-n h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.us-n p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -40px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .us-n h2{
+        font-size: 55px;
+    }
+
+    .us-n p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .us-n h2{
+        font-size: 45px;
+    }
+
+    .us-n p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .us-n h2{
+        font-size: 45px;
+    }
+
+    .us-n p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .us-n h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .us-n p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .us-n h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .us-n p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .us-n h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .us-n p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}

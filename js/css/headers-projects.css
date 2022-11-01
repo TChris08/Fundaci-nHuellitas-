@@ -1,0 +1,3315 @@
+/* Altiani */
+.altiani{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/ALTIANI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.altiani-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.altiani-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.altiani-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.altiani-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .altiani-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .altiani{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .altiani-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .altiani-p h2{
+        font-size: 55px;
+    }
+
+    .altiani-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .altiani-p h2{
+        font-size: 45px;
+    }
+
+    .altiani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .altiani-p h2{
+        font-size: 45px;
+    }
+
+    .altiani-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .altiani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .altiani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .altiani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .altiani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .altiani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .altiani-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Casa Cabrera*/
+.casacabrera{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/casacabrera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.casacabrera-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.casacabrera-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.casacabrera-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.casacabrera-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .casacabrera-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .casacabrera{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .casacabrera-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .casacabrera-p h2{
+        font-size: 55px;
+    }
+
+    .casacabrera-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .casacabrera-p h2{
+        font-size: 45px;
+    }
+
+    .casacabrera-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .casacabrera-p h2{
+        font-size: 45px;
+    }
+
+    .casacabrera-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .casacabrera-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .casacabrera-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .casacabrera-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .casacabrera-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .casacabrera-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .casacabrera-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Centenari*/
+.centenari{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/centenari.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.centenari-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.centenari-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -150px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+    width: 100%;
+}
+
+.centenari-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.centenari-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .centenari-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .centenari{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .centenari-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .centenari-p h2{
+        font-size: 55px;
+    }
+
+    .centenari-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .centenari-p h2{
+        font-size: 45px;
+    }
+
+    .centenari-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .centenari-p h2{
+        font-size: 45px;
+    }
+
+    .centenari-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .centenari-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .centenari-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .centenari-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .centenari-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .centenari-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .centenari-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Go */
+.go{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/GO.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.go-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.go-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.go-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.go-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .go-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .go{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .go-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .go-p h2{
+        font-size: 55px;
+    }
+
+    .go-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .go-p h2{
+        font-size: 45px;
+    }
+
+    .go-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .go-p h2{
+        font-size: 45px;
+    }
+
+    .go-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .go-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .go-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .go-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .go-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .go-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .go-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Goya */
+.goya{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/goya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.goya-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.goya-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.goya-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.goya-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .goya-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .goya{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .goya-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .goya-p h2{
+        font-size: 55px;
+    }
+
+    .goya-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .goya-p h2{
+        font-size: 45px;
+    }
+
+    .goya-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .goya-p h2{
+        font-size: 45px;
+    }
+
+    .goya-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .goya-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .goya-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .goya-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .goya-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .goya-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .goya-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Modigliani */
+.modigliani{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/modigliani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.modigliani-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.modigliani-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.modigliani-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.modigliani-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .modigliani-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .modigliani{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .modigliani-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .modigliani-p h2{
+        font-size: 55px;
+    }
+
+    .modigliani-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .modigliani-p h2{
+        font-size: 45px;
+    }
+
+    .modigliani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .modigliani-p h2{
+        font-size: 45px;
+    }
+
+    .modigliani-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .modigliani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .modigliani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .modigliani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .modigliani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .modigliani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .modigliani-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Ocobos */
+.ocobos{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/losocobos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.ocobos-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.ocobos-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.ocobos-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.ocobos-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .ocobos-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .ocobos{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .ocobos-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .ocobos-p h2{
+        font-size: 55px;
+    }
+
+    .ocobos-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .ocobos-p h2{
+        font-size: 45px;
+    }
+
+    .ocobos-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .ocobos-p h2{
+        font-size: 45px;
+    }
+
+    .ocobos-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .ocobos-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .ocobos-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .ocobos-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .ocobos-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .ocobos-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .ocobos-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Santa Maria */
+.pdsm{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/parque-santa-maria.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.pdsm-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.pdsm-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.pdsm-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.pdsm-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .pdsm-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .pdsm{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .pdsm-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .pdsm-p h2{
+        font-size: 55px;
+    }
+
+    .pdsm-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .pdsm-p h2{
+        font-size: 45px;
+    }
+
+    .pdsm-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .pdsm-p h2{
+        font-size: 45px;
+    }
+
+    .pdsm-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .pdsm-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pdsm-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .pdsm-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pdsm-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .pdsm-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .pdsm-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Sabana Central */
+.sabanacentral{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/sabana-central.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.sabanacentral-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.sabanacentral-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.sabanacentral-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.sabanacentral-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .sabanacentral-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .sabanacentral{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .sabanacentral-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .sabanacentral-p h2{
+        font-size: 55px;
+    }
+
+    .sabanacentral-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .sabanacentral-p h2{
+        font-size: 45px;
+    }
+
+    .sabanacentral-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .sabanacentral-p h2{
+        font-size: 45px;
+    }
+
+    .sabanacentral-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .sabanacentral-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .sabanacentral-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .sabanacentral-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .sabanacentral-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .sabanacentral-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .sabanacentral-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Suramerica */
+.suramerica{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/SURAMERICA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.suramerica-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.suramerica-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.suramerica-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.suramerica-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .suramerica-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .suramerica{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .suramerica-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .suramerica-p h2{
+        font-size: 55px;
+    }
+
+    .suramerica-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .suramerica-p h2{
+        font-size: 45px;
+    }
+
+    .suramerica-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .suramerica-p h2{
+        font-size: 45px;
+    }
+
+    .suramerica-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .suramerica-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .suramerica-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .suramerica-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .suramerica-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .suramerica-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .suramerica-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Tiziano */
+.tiziano{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/TIZIANO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.tiziano-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.tiziano-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.tiziano-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.tiziano-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .tiziano-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .tiziano{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .tiziano-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .tiziano-p h2{
+        font-size: 55px;
+    }
+
+    .tiziano-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .tiziano-p h2{
+        font-size: 45px;
+    }
+
+    .tiziano-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .tiziano-p h2{
+        font-size: 45px;
+    }
+
+    .tiziano-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .tiziano-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .tiziano-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .tiziano-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .tiziano-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .tiziano-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .tiziano-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de TAJ-97 */
+.taj{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/taj_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.taj-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.taj-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.taj-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.taj-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .taj-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .taj{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .taj-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .taj-p h2{
+        font-size: 55px;
+    }
+
+    .taj-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .taj-p h2{
+        font-size: 45px;
+    }
+
+    .taj-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .taj-p h2{
+        font-size: 45px;
+    }
+
+    .taj-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .taj-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .taj-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .taj-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .taj-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .taj-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .taj-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de TAJ-97 */
+.venti{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/VENTI.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.venti-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.venti-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.venti-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.venti-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .venti-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .venti{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .venti-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .venti-p h2{
+        font-size: 55px;
+    }
+
+    .venti-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .venti-p h2{
+        font-size: 45px;
+    }
+
+    .venti-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .venti-p h2{
+        font-size: 45px;
+    }
+
+    .venti-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .venti-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .venti-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .venti-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .venti-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .venti-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .venti-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Virrey */
+.virrey{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/virrey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.virrey-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.virrey-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.virrey-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.virrey-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+
+/* DarkMode */
+body.dark .virrey-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .virrey{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .virrey-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .virrey-p h2{
+        font-size: 55px;
+    }
+
+    .virrey-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .virrey-p h2{
+        font-size: 45px;
+    }
+
+    .virrey-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .virrey-p h2{
+        font-size: 45px;
+    }
+
+    .virrey-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .virrey-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .virrey-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .virrey-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .virrey-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .virrey-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .virrey-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Zua */
+.zua{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/ZUA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.zua-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.zua-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.zua-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.zua-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .zua-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .zua{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .zua-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .zua-p h2{
+        font-size: 55px;
+    }
+
+    .zua-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .zua-p h2{
+        font-size: 45px;
+    }
+
+    .zua-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .zua-p h2{
+        font-size: 45px;
+    }
+
+    .zua-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .zua-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .zua-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .zua-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .zua-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .zua-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .zua-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Ciudadela Luis Javier Arroyave */
+.clja{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/Ciudadela\ Luis\ Javier\ Arroyave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.clja-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.clja-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.clja-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.clja-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .clja-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .clja{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .clja-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .clja-p h2{
+        font-size: 55px;
+    }
+
+    .clja-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .clja-p h2{
+        font-size: 45px;
+    }
+
+    .clja-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .clja-p h2{
+        font-size: 45px;
+    }
+
+    .clja-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .clja-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .clja-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .clja-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .clja-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .clja-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .clja-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Parques de Edificio Carrera 13 */
+.edificiocarrera{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/Edificio83.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.edificiocarrera-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.edificiocarrera-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.edificiocarrera-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.edificiocarrera-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .edificiocarrera-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .edificiocarrera{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .edificiocarrera-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .edificiocarrera-p h2{
+        font-size: 55px;
+    }
+
+    .edificiocarrera-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .edificiocarrera-p h2{
+        font-size: 45px;
+    }
+
+    .edificiocarrera-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .edificiocarrera-p h2{
+        font-size: 45px;
+    }
+
+    .edificiocarrera-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .edificiocarrera-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .edificiocarrera-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .edificiocarrera-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .edificiocarrera-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .edificiocarrera-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .edificiocarrera-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Fuente Vida */
+.fuentevida{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/Fuente-vida.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.fuentevida-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.fuentevida-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.fuentevida-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.fuentevida-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .fuentevida-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .fuentevida{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .fuentevida-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .fuentevida-p h2{
+        font-size: 55px;
+    }
+
+    .fuentevida-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .fuentevida-p h2{
+        font-size: 45px;
+    }
+
+    .fuentevida-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .fuentevida-p h2{
+        font-size: 45px;
+    }
+
+    .fuentevida-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .fuentevida-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .fuentevida-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .fuentevida-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .fuentevida-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .fuentevida-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .fuentevida-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Nogal */
+.nogal{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/nogal.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.nogal-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.nogal-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.nogal-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.nogal-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .nogal-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .nogal{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .nogal-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .nogal-p h2{
+        font-size: 55px;
+    }
+
+    .nogal-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .nogal-p h2{
+        font-size: 45px;
+    }
+
+    .nogal-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .nogal-p h2{
+        font-size: 45px;
+    }
+
+    .nogal-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .nogal-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .nogal-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .nogal-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .nogal-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .nogal-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .nogal-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Urban Chico */
+.urbanchico{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/urban-chico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.urbanchico h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.urbanchico p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.urbanchico a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.urbanchico a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .urbanchico-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .urbanchico{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .urbanchico-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .urbanchico h2{
+        font-size: 55px;
+    }
+
+    .urbanchico p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .urbanchico h2{
+        font-size: 45px;
+    }
+
+    .urbanchico p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .urbanchico h2{
+        font-size: 45px;
+    }
+
+    .urbanchico p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .urbanchico h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .urbanchico p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .urbanchico h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .urbanchico p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .urbanchico h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .urbanchico p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Urbana Park */
+.urbanapark{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/urbana-park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit:fill;
+    margin-bottom: 50px;
+}
+
+.urbanapark-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.urbanapark-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.urbanapark-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.urbanapark-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .urbanapark-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .urbanapark{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .urbanapark-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .urbanapark-p h2{
+        font-size: 55px;
+    }
+
+    .urbanapark-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .urbanapark-p h2{
+        font-size: 45px;
+    }
+
+    .urbanapark-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .urbanapark-p h2{
+        font-size: 45px;
+    }
+
+    .urbanapark-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .urbanapark-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .urbanapark-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .urbanapark-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .urbanapark-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .urbanapark-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .urbanapark-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* Modigliani */
+.modigliani{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/modigliani.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit: fill;
+    margin-bottom: 50px;
+}
+
+.modigliani-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.modigliani-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+.modigliani-p a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.modigliani-p a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+
+
+/* DarkMode */
+body.dark .modigliani-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .modigliani{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .modigliani-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .modigliani-p h2{
+        font-size: 55px;
+    }
+
+    .modigliani-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .modigliani-p h2{
+        font-size: 45px;
+    }
+
+    .modigliani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .modigliani-p h2{
+        font-size: 45px;
+    }
+
+    .modigliani-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .modigliani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .modigliani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .modigliani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .modigliani-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .modigliani-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .modigliani-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+/* ----------------------------------------------------------------------------- */
+
+/* universidad de antioquia */
+.uda{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/universidad-antioquia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit: fill;
+    margin-bottom: 50px;
+}
+
+.uda a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.uda a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+.uda-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.uda-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+/* DarkMode */
+body.dark .uda-p a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .uda{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .uda-p a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .uda-p h2{
+        font-size: 55px;
+    }
+
+    .uda-p p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .uda-p h2{
+        font-size: 45px;
+    }
+
+    .uda-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .uda-p h2{
+        font-size: 45px;
+    }
+
+    .uda-p p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .uda-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .uda-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .uda-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .uda-p p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .uda-p h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .uda-p p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
+/* Proyecto Canarias */
+.canarias{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/galeria-proyectos/CANARIAS-HEADER.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    object-fit: fill;
+    margin-bottom: 50px;
+}
+
+.canarias a{
+    margin-left: 60px;
+    padding: 10px;
+    background: #020d2b;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+.canarias a:hover{
+    background: #fff;
+    color: #020d2b;
+    transition: 300ms;
+}
+
+.canarias-p h2{
+    font-size: 65px;
+    padding: 60px;
+    color: #fff;
+}
+
+.canarias-p p{
+    font-size: 18px;
+    padding: 60px;
+    margin-top: -100px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-right: 340px;
+    text-align: justify;
+}
+
+/* DarkMode */
+body.dark .canarias a{
+    background: #222;
+    color: #f9f9f9;
+    border: 1px solid #000;
+    transition: 300ms;
+}
+
+body.dark .canarias{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+    transition: 300ms;
+}
+
+body.dark .canarias a:hover{
+    background: #f9f9f9;
+    color: #222;
+    transition: 300ms;
+}
+
+/* Responsive */
+@media screen and (max-width:1150px) {
+    .canarias h2{
+        font-size: 55px;
+    }
+
+    .canarias p{
+        font-size: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    .canarias h2{
+        font-size: 45px;
+    }
+
+    .canarias p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .canarias h2{
+        font-size: 45px;
+    }
+
+    .canarias p{
+        font-size: 22px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .canarias h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .canarias p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .canarias h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .canarias p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:520px){
+    .canarias h2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .canarias p{
+        font-size: 18px;
+        margin-top: -50px;
+    }
+}

@@ -1,0 +1,231 @@
+/* Contenedor principal del nav */
+.container {
+    width: 100%;
+    height: 100%;
+    font-size: 5px;
+    display: flex;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Contenedor del nav */
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    position: relative;
+    top: 0;
+    text-decoration: none;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 5px;
+}
+
+/* Tamaño del logo */
+.logo{
+    width: 100px;
+    cursor: pointer;
+    top: 0;
+    text-decoration: none;
+    display: block;
+}
+
+/* Tamaño del logo */
+.logo-dark{
+    width: 100px;
+    cursor: pointer;
+    top: 0;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+/* Diseño de las listas  */
+.navbar > ul > li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 15px;
+    position: relative;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar > li > a img{
+    width: 22px;
+    margin: 0 -19px;
+    font-weight: 500;
+}
+
+/* Funcion para menu pegajoso */
+.sticky{
+    position: sticky;
+    top: 30px;
+    z-index: 1100;
+    text-decoration: none;
+    font-weight: 400; 
+    background: rgba(255, 255, 255); 
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Diseño de los links */
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: #020d2b;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    padding: 7px 10px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Diseño de los parrafos */
+.navbar ul li p{
+    text-decoration: none;
+    color: #020d2b;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* Boton Responsive */ 
+.btn-menu{
+    margin: 30px;
+    font-size: 40px;
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+    display: none;
+    text-decoration: none;
+}
+
+ul.show {
+    top: 75px;
+}
+
+.container-nav > li:hover{
+    text-decoration: none;
+}
+
+li.active i{
+    color: #fff;
+    font-size: 22px;
+    background: #636363;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li.active i:hover{
+    background: #020d2b;
+    color: #fff;
+    transition: 300ms all;
+}
+
+/* --------------------------------------------- */
+
+/* Submenu */
+nav ul li ul{
+    position: absolute;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    top: 100px;
+    left: 5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 75px;
+}
+
+nav ul li ul::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul a{
+    display: block;
+    background: #fff;
+    color: #020d2b;
+    padding: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: all 300ms;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav ul .linear::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #020d2b;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.3s ease-out;
+}
+
+nav ul .linear:hover::before{
+    width: 100%;
+    transition: 0.4s ease-out;
+}
+
+nav ul li ul a:hover{
+    color: #fff;
+    background: #020d2b;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+/* --------------------------------------------- */
+
+.checkbtn{
+    font-size: 30px;
+    color: #020d2b;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn:hover{
+    color: #636363;
+    transition: .5s;
+}
+
+
+

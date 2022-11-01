@@ -1,0 +1,217 @@
+.blog-page{
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: -22px;
+    height: 500px;
+    background-size: cover; 
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/inicio/Centenari\ \(2\).jpeg);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.blog-page::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.texto-blog{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+
+.texto-blog h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.container-blog h4{
+    font-size: 30px;
+    font-weight: 500;
+    color:#020d2b;
+    margin-bottom: 20px;
+}
+
+.container-blog b{
+    font-weight: 600;
+}
+
+.container-blog li{
+    color: #000;
+    margin-bottom: 18px;
+    line-height: 28px;
+}
+
+.container-blog img{
+    margin-bottom: 15px;
+}
+
+.texto-blog p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Contenido del Blog */
+
+.container-blog{
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-blog article{
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 -20px -30px #000;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-blog article::before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #020d2b;
+}
+
+.container-blog article h1{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #020d2b;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container-blog article p{
+    margin-top: 20px ;
+    color: #000;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.container-blog article img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Blogger Site */
+
+.container-blogger aside{
+    width: 320px;
+    border-radius: 6px;
+    box-shadow: 0 0 20px -20px #000;
+    overflow: hidden;
+    margin-left: 40px;
+    border: 1px solid #000;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    transition: 300ms;
+}
+
+.container-blogger aside img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+.container-blogger aside h2{
+    margin-top: 20px;
+    padding: 0px 20px;
+    color: #020d2b;
+    text-align: center;
+}
+
+.container-blogger aside h5{
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0px 20px;
+    color: #020d2b;
+}
+
+body.dark .container-blogger aside h5{
+    color: #222;
+    transition: 300ms;
+}
+
+body.dark .container-blog h4{
+    color: #222;
+    transition: 300ms;
+}
+
+
+body.dark .container-blog li{
+    color: #fff;
+    transition: 300ms;
+}
+
+
+.container-blogger aside p{
+    margin-top: 20px;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+
+.container-blogger aside button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 16px;
+    background: #020d2b;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 300ms;
+    margin-bottom: 10px;
+}
+
+.container-blogger aside button:hover{
+    color:#020d2b;
+    border: 1px solid #222;
+    transition: 300ms;
+    background: #f9f9f9;
+}
+
+
+.container-blogger aside:hover{
+    transform: scaleY(1.1);
+    transition: 300ms;
+}
+
+
+
+
+
+
+

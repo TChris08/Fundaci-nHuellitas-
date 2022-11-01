@@ -1,0 +1,325 @@
+/* Principal Banner */
+.banner_slider{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 100%;
+}
+
+/* Slide Banner */
+.banner_slider .slide{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Rescate.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 530px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Service */
+.slide_content a{
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 230px;
+    background: #ffbd11;
+    color: #fff;
+    padding: 12px;
+    transition: 300ms;
+    cursor: default;
+}
+
+.slide_content a:hover{
+    background: #fff;
+    color: #ffbd11;
+    transition: 300ms;
+}
+
+#click{
+    margin-top: 30px;
+}
+
+.banner_slider{
+    box-shadow: 2px 2px cpx #9c9c9c;
+}
+
+body.dark .banner_slider{
+    box-shadow: 2px 2px vpx rgba(170, 170, 170, .16);
+    transition: 300ms ease all;
+}
+
+/* Banner Two */
+.banner_slider .slide_two{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Apadrinamiento.jpg);
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Banner Three */
+.banner_slider .slide_three{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Renovación.png);
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Banner Four */
+.banner_slider .slide_four{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Apadrina.jpg);
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Banner Five */
+.banner_slider .slide_five{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Renovamos.jpg);
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+/* Color Content Letters */
+.slide_content{
+    color: #fff;
+    text-align: center;
+}
+
+.slide_content h2{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-top: 100px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.541);
+}
+
+.slide_content p{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.slide_content b{
+    font-weight: 600;
+    color:#ffbd11;
+    transition: 300ms;
+    text-shadow: none;
+}
+
+.slide_content b:hover{
+    color:#bb8909;
+}
+
+.slide_content .btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fff;
+    padding: 10px 42px;
+    font-weight: 700px;
+    display: inline-block;
+    outline: 1px solid #fff;
+    transition: .4s ease-in-out;
+}
+
+.slide_content .btn:hover{
+    color: #fff;
+    background-color: #fff;
+    outline-offset: 3px;
+    outline-color: #fff;
+}
+
+/* Slide Content two */
+
+.slide_content-two{
+    color: #fff;
+    text-align: center;
+}
+
+.slide_content-two h2{
+    font-size: 3.5rem;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-top: 100px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.541);
+}
+
+.slide_content-two b{
+    font-weight: 600;
+    color:#ffbd11;
+    transition: 300ms;
+    text-shadow: none;
+}
+
+.slide_content-two b:hover{
+    color:#bb8909;
+}
+
+.slide_content-two a{
+    text-decoration: none;
+    font-size: 26px;
+    background: #ffbd11;;
+    color: #fff;
+    padding: 12px;
+    transition: 300ms;
+    cursor: default;
+    line-height: 100px;
+}
+
+.slide_content-two a:hover{
+    background: #fff;
+    color: #ffbd11;
+    transition: 300ms;
+}
+
+.slide_content-two p{
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+
+/* Arrow Design */
+.slide_content .btn_transparent{
+    background-color: transparent;
+    border-color: #fff;
+    margin-right: 20px;
+    outline-color: #fff;
+    transition: 0.4s ease-in-out;
+    z-index: 1000;
+}
+
+.slide_content .btn_transparent{
+    background-color: transparent;
+}
+
+.slide_content .btn_transparent:hover{
+    color: #fff;
+    background-color: #fff;
+    outline-offset: 3px;
+}
+
+.banner_slider.slick-slider{
+    margin-bottom: 0;
+}
+
+.banner_slider .slick-dots{
+    width: 100%;
+    bottom: 6%;
+}
+
+.banner_slider .slick-dots li button::before{
+    font-size: 16px;
+    color: #fff;
+    z-index: 1000;
+}
+
+.banner_slider .slick-dots li{
+    margin: 0 3px;
+    z-index: 1000;
+}
+
+.banner_slider .slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #fff;
+    z-index: 1000;
+}
+
+.banner_slider .slick-arrow.prev{
+    left: 10px;
+    z-index: 1000;
+}
+
+.banner_slider .slick-arrow.next{
+    right: 10px;
+    z-index: 1000;
+}
+
+
+.banner_slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    display: block;
+    z-index: 100;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.banner_slider .slick-arrow span{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 60px;
+    transition: .4s ease-out;
+    z-index: 1000;
+}
+
+.banner_slider .slick-arrow span:hover{
+    color: rgba(41, 41, 41, 0.8);
+    font-size: 60px;
+    z-index: 1000;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Responsive Design */
+@media only screen and (max-width: 992px) {
+    .banner_slider .slide{
+        padding: 0 24px;
+    }
+
+    .slide_content{
+        max-width: 100%;
+        padding: 10px 10px 0 10px;
+        border-width: 2px 2px 0 2px;
+        text-align: center;
+    }
+
+    .slide_content p{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+    
+    .slide_content h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 10px 0
+    }
+
+    .slide_content .btn{
+        padding: 8px 24px;
+        font-size: 14px;
+    }
+
+    .banner_slider .slick-arrow span{
+        font-size: 25px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .button_wrap{
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    .slide_content .btn{
+        font-size: 14px;
+        width: auto;
+    }
+
+    .slide_content .btn_transparent{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.texto p{
+    margin-top: 200px;
+}

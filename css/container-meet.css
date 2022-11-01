@@ -1,0 +1,141 @@
+.container_meet-header{
+    width: 100%;
+    height: 360px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Estas-listo-para-adoptar/Header.jpg) ;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px #9c9c9c86;
+    margin-bottom: 50px;
+}
+
+.container_meet-header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 140px;
+    cursor: default;
+}
+
+.container_meet-header h1 b{
+    color: #ffbc11;
+}
+
+.container_meet-header h1 b:hover{
+    color: #bb8909;
+}
+
+/* Container Meet */
+.container-meet{
+    padding-left: 40px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.meet-text{
+    width: 45%;
+}
+
+.meet-text p{
+    color: #532516;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.container-meet img{
+    width: 45%;
+    padding-left: 30px;
+    height: 100%;
+}
+
+/* Container Age */
+.container-age{
+    padding-left: 40px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #f3f1f1;
+}
+
+.age-text{
+    width: 45%;
+    margin-top: 30px;
+    
+}
+
+.age-text h1{
+    color: #ffbc11;
+    font-size: 50px;
+    padding-left: 65px;
+}
+
+.age-text p{
+    color: #532516;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.container-age img{
+    width: 45%;
+    padding-left: 30px;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-age-two{
+    padding-left: 40px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background-color: #f3f1f1;
+    margin-top: -30px;
+}
+
+.container-age-three{
+    padding-left: 40px;
+    display: flex;
+    overflow: hidden;
+    background-color: #f3f1f1;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.container-age-three h1{
+    color: #ffbc11;
+    font-size: 50px;
+    padding-left: 65px;
+    margin-top: 40px;
+}
+
+.container-age-three p{
+    color: #532516;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.container-age-three img{
+    width: 45%;
+    padding-right: 100px;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

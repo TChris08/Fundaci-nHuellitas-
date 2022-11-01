@@ -1,0 +1,139 @@
+/* Contenedor principal de los iconos */
+.con-icon{
+    width: 75%;
+    margin: auto;
+    position: relative;
+    z-index: 1000;
+}
+
+/* Clase social-icons */
+.contact-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    bottom: 305px;
+}
+
+/* Diseño de la lista */
+.contact-icon li{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Diseño de los links */
+.contact-icon a{
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    text-align: center;
+    color: #020d2b;
+    background: rgb(2, 13, 43);
+    transition: .5s;
+    border: 2px  rgb(255, 255, 255);
+    align-content: center;
+    align-items: center;
+    margin-top: -10px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+body.dark .contact-icon a,
+body.dark .contact-icon i{
+    box-shadow: 2px 2px 1px rgba(170, 170, 170, .16);
+}
+
+
+/* Diseño de los links */
+.contact-icon i{
+    display: block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    transition: .5s;
+    border: 2px  rgb(255, 255, 255);
+    align-content: center;
+    align-items: center;
+    margin-top: -10px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 300ms;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+.user_info label{
+    color: #020d2b;
+}
+
+
+
+/* Estilo del parrafo */
+ .contact-icon h3{ 
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 40px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+    width: 100%;
+    top: -50px;
+    font-weight: 400;
+    color: #020d2b;
+    border-radius: 50%;
+    transition: 300ms;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.contact-icon p{ 
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+    width: 100%;
+    top: -50px;
+    font-weight: 400;
+    color: #000;
+    border-radius: 50%;
+    transition: 300ms;
+    line-height: 25px;
+}
+
+/* Atributo hover para la etiqueta "a" */
+.contact-icon li a:hover,
+.contact-icon li i:hover{
+    background: #fff;
+    color: #020d2b;
+    box-shadow: 2px 2px 5px #9c9c9c;
+    border-radius: 50%;
+    transition: 300ms;
+}
